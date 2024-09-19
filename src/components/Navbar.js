@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
-import caixabankIcon from '../assets/caixabank-icon.png';
+import bankIcon from '../assets/bank-icon.png';
 
 const Navbar = ({ userName }) => {
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -57,8 +57,8 @@ const Navbar = ({ userName }) => {
                             height: 40,
                             marginRight: 2,
                         }}
-                        alt="CaixaBank logo"
-                        src={caixabankIcon}
+                        alt="Bank logo"
+                        src={bankIcon}
                     />
                 </Box>
                 <Typography variant="h6" sx={{ flexGrow: 1, fontStyle: 'italic' }}>

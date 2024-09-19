@@ -5,7 +5,7 @@ import TimelineIcon from '@mui/icons-material/Timeline';
 
 import { useStore } from '@nanostores/react';
 import { accountsStore } from '../contexts/GlobalState';
-import caixabankIcon from '../assets/caixabank-icon-blue.png'; // Make sure this path is correct
+import bankIcon from '../assets/bank-icon-blue.png'; // Make sure this path is correct
 
 const Movements = () => {
     const store = useStore(accountsStore);
@@ -28,7 +28,7 @@ const Movements = () => {
     return (
         <Container sx={{ mt: 10, mb: 4 }}>
             <Box display="flex" alignItems="center" sx={{ mb: 4 }}>
-                <img src={caixabankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
+                <img src={bankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
                 <Typography variant="h4" component="div">
                     Movements
                 </Typography>

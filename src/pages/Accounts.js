@@ -7,7 +7,7 @@ import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { useStore } from '@nanostores/react';
 import { accountsStore, addAccount, deleteAccount } from '../contexts/GlobalState';
-import caixabankIcon from '../assets/caixabank-icon-blue.png';
+import bankIcon from '../assets/bank-icon-blue.png';
 import '../styles/Buttons.css'; // Import CSS file
 
 const generateAccountNumber = () => {
@@ -131,7 +131,7 @@ const Accounts = () => {
     return (
         <Container sx={{ mt: 10, mb: 4 }}>
             <Box display="flex" alignItems="center" sx={{ mb: 4 }}>
-                <img src={caixabankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
+                <img src={bankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
                 <Box sx={{ flexGrow: 1 }}>
                     <Typography variant="h4" component="div">
                         Accounts

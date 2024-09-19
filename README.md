@@ -29,8 +29,8 @@ react-bank-app
     ├── App.js
     ├── App.test.js
     ├── assets
-    │   ├── caixabank-icon-blue.png
-    │   └── caixabank-icon.png
+    │   ├── bank-icon-blue.png
+    │   └── bank-icon.png
     ├── components
     │   ├── AccountDetails.js
     │   ├── AccountMovements.js

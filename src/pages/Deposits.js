@@ -3,7 +3,7 @@ import { Container, Grid, Card, CardContent, Typography, Box, Dialog, DialogTitl
 import SavingsIcon from '@mui/icons-material/Savings';
 import { useStore } from '@nanostores/react';
 import { accountsStore, addDeposit, deleteDeposit } from '../contexts/GlobalState';
-import caixabankIcon from '../assets/caixabank-icon-blue.png';
+import bankIcon from '../assets/bank-icon-blue.png';
 import DepositList from '../components/DepositList';
 
 const Deposits = () => {
@@ -106,7 +106,7 @@ const Deposits = () => {
     return (
         <Container sx={{ mt: 10, mb: 4 }}>
             <Box display="flex" alignItems="center" sx={{ mb: 4 }}>
-                <img src={caixabankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
+                <img src={bankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
                 <Typography variant="h4" component="div">
                     Deposits
                 </Typography>
