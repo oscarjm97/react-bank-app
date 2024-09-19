@@ -31,7 +31,7 @@ function App() {
         <Box display="flex" alignItems="center" justifyContent="center" height="100vh" bgcolor="#f4f4f4">
           <Paper elevation={3} sx={{ padding: 4, maxWidth: 400, textAlign: 'center' }}>
             <Typography variant="h5" gutterBottom color="#007eae">
-              Welcome to CaixaBankNow
+              Welcome to BankApp
             </Typography>
             <Typography variant="subtitle1" gutterBottom>
               Please enter your name to continue.

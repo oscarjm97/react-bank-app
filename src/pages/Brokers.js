@@ -10,7 +10,7 @@ const Brokers = () => {
     return (
         <Container sx={{ mt: 10, mb: 4 }}>
             <Box display="flex" alignItems="center" sx={{ mb: 4 }}>
-                <img src={bankIcon} alt="CaixaBank" style={{ height: '40px', marginRight: '10px' }} />
+                <img src={bankIcon} alt="BankApp" style={{ height: '40px', marginRight: '10px' }} />
                 <Typography variant="h4" component="div">
                     Brokers
                 </Typography>
