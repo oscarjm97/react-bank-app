@@ -1,0 +1,63 @@
+{
+  "name": "challenge-lacaixa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@nanostores/react": "^0.7.2",
+    "@testing-library/user-event": "^13.5.0",
+    "challenge-lacaixa": "file:",
+    "chart.js": "^4.4.3",
+    "nanostores": "^0.10.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "npx jest --config=jest.config.js --testPathPattern='/src/test/AccountDetails.test.js'",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run-e2e": "cypress run --config-file cypress.config.js --spec cypress/e2e/**/*.cy.js",
+    "cypress:run-component": "cypress run --component --config-file cypress.config.js",
+    "cypress:open-component": "cypress open --component --config-file cypress.config.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@cypress/react18": "^2.0.1",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "babel-jest": "^29.7.0",
+    "cypress": "^13.13.2",
+    "jest": "^27.5.1",
+    "jsdom": "^24.1.1"
+  }
+}

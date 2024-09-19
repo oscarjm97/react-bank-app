@@ -1,0 +1,28 @@
+.custom-button,
+.custom-button.MuiButton-root {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.8rem;
+    background-color: #007eae;
+    transition: all 0.3s ease-in;
+    font-family: "OpenSans-Bold", Arial, sans-serif;
+    border: none;
+    border-radius: 50px;
+    max-width: 100%;
+    text-transform: capitalize;
+}
+/* Buttons.css */
+.button-custom {
+    background-color: #007eae;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 16px;
+    text-transform: none;
+    font-weight: bold;
+    margin-left: auto; 
+}
+
+.button-custom:hover {
+    background-color: #005f8c;
+}

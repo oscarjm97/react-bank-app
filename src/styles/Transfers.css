@@ -1,0 +1,25 @@
+/* Transfers.css */
+.transfers-container {
+    margin-top: 20px;
+}
+
+.transfers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.transfer-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.account-list {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.show-more-button {
+    margin-top: 10px;
+}
